@@ -1,3 +1,5 @@
+require 'pry'
+
 def roll_call_dwarves(dwarves)
   i = 1
   dwarves.each do |dwarf|
@@ -12,7 +14,7 @@ def summon_captain_planet(calls)
     call.capitalize
     call += "!"
   end
-
+binding.pry
 end
 
 def long_planeteer_calls# code an argument here
