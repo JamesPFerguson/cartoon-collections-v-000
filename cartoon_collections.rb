@@ -24,5 +24,5 @@ cheese_types = ["cheddar", "gouda", "camembert"]
 
   arr.find do |thing|
     return thing if cheese_types.include(thing)
-
+  end
 end
