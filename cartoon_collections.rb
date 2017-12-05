@@ -22,8 +22,7 @@ def find_the_cheese(arr)
 
 cheese_types = ["cheddar", "gouda", "camembert"]
 
-  arr.each do |thing|
-    return thing if cheese_types.include?(thing)
-  end
+  arr.find do |thing|
+    return thing if cheese_types.include(thing)
 
 end
